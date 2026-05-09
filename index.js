@@ -101,6 +101,9 @@ app.get('/', (req, res) => {
   res.send('Simple CRUD server is serving 400')
 });
 
+module.exports = app;
+
 app.listen(port, () => {
   console.log(`Simple CRUD server is running on port ${port}`)
 });
+
